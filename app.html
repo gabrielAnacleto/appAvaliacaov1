@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avaliação Física</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header>
+        <h1>Avaliação Física R&E</h1>
+        <div id ="foto">
+          <img src="avv1.jpg">
+        </div>
+  </header>
+  <section>
+  <div id ="msg">
+    <u> Avaliação Física </u>
+    
+  </div>
+  <div id ="msg">
+   <u><b>7 dobras-Protocolo de Pollock e col., 1984 </b> </u> 
+    <p>Subescapular:<input type="number " name="dobraSub7" id="txt7D1"></p>
+    <p> Tríceps:<input type="number " name="dobraTri7" id="txt7D2"></p>
+    <p> Peitoral:<input type="number " name="dobraP7" id="txt7D3"></p>
+    <p> Axilar Média:<input type="number " name="dobraAmed7" id="txt7D4"></p>
+    <p> Supra-ilíaca:<input type="number " name="dobraSIi7" id="txt7D5"></p>
+    <p>Abdominal:<input type="number " name="dobraAbd7" id="txt7D6"></p>
+    <p> Femural médio<input type="number " name="dobraFem7" id="txt7D7"></p>
+    <p> Idade:<input type="number " name="Idade7" id="txt7I"></p>
+    <p> <input type="button" value="Calcular 7 Dobras" onclick="contar1()" ></p>
+<div id="res1"> <b><i>Resultado 7 dobras</i></b> </div>
+  </div>
+  <div id ="msg">
+    <u><b>   4 dobras Protocolo de Faulkner, 1968 </b></u>
+    <p>Subescapular:<input type="number " name="dobraSub4" id="txt3D1"></p>
+    <p> Tríceps:<input type="number " name="dobraTri4" id="txt3D2"></p>
+    <p> Supra-ilíaca:<input type="number " name="dobraSI4" id="txt3D3"></p>
+    <p> Abdominal:<input type="number " name="dobraAbd4" id="txt3D4"></p>
+    
+    
+    <p> <input type="button" value="Calcular 4 Dobras" onclick="contar2()" ></p>
+    <div id="res2"> <b><i>Resultado 4 dobras</i> </b> </div>
+
+  </div>
+  <div id ="msg">
+    <u><b> IMC </b> </u>
+    <p> Altura(Em metros):<input type="number " name="altura" id="txtIMC1"></p>
+    <p> Peso:<input type="number " name="peso" id="txtIMC2"></p>
+    <p> <input type="button" value="Calcular IMC" onclick="contar3()"></p>
+    <div id="res3"><b> <i>Resultado IMC</i> </b> </div>
+  </div>
+  
+  </section>
+  <footer>
+<p>&copy;AvaliaçãoR&E </p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
